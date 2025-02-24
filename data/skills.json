@@ -34,5 +34,23 @@
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
         "alt" : "Test"
+    },
+    {
+        "image": "agile.png",
+        "title": "Méthodologie Agile",
+        "text": "Une approche de gestion de projet qui implique de diviser le projet en phases et qui met l'accent sur la collaboration continue et l'amélioration continue",
+        "alt" : "Méthodologie Agile"
+    },
+    {
+        "image": "jira.png",
+        "title": "Jira",
+        "text": "Planification, gestion de projet et collaboration - Suivi des tâches, gestion des bugs",
+        "alt" : "Jira"
+    },
+    {
+        "image": "cypress.png",
+        "title": "Cypress",
+        "text": "Outil d'automatisation des tests front-end pour les tests de régression des applications web",
+        "alt" : "Cypress"
     }
 ]

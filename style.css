@@ -48,13 +48,14 @@
 }
 
 /* about */
+
 .imageAboutPage {
-    width: 100%;
-}
-.imageAboutPage {
+    margin-top: 12px;
+    width: 350px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+
 
 /* skills */
 .skillsText.card {
@@ -80,12 +81,14 @@
     color: #008000;
 }
 .skillsText:hover {
-    border: 1px solid #008000;
+    box-shadow: 0 0 10px rgb(31, 81, 255);;
 }
 
 /* portfolio */
+
 #portfolio p {
     text-align: center;
+    
 }
 
 /* contact */
