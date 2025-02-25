@@ -48,14 +48,12 @@
 }
 
 /* about */
-
 .imageAboutPage {
-    margin-top: 12px;
-    width: 350px;
+    width: 300px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
 }
-
 
 /* skills */
 .skillsText.card {
@@ -85,10 +83,8 @@
 }
 
 /* portfolio */
-
 #portfolio p {
     text-align: center;
-    
 }
 
 /* contact */
