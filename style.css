@@ -49,15 +49,24 @@
 
 /* about */
 .imageAboutPage {
+   
     width: 300px;
+    height: 300px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     margin-bottom: 15px;
+  
+}
+.col-lg-4 {
+    display: flex;
+
+    justify-content: center;
 }
 
 /* skills */
 .skillsText.card {
     height: 350px;
+    width: 100%;
 }
 .skillsText img {
     width: 100%;
@@ -67,24 +76,24 @@
 #skills p {
     text-align: center;
 }
-.skillsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
+
 .card-title {
     text-align: center;
 }
-.card:hover .skillsIcon {
-    color: #008000;
-}
+
 .skillsText:hover {
     box-shadow: 0 0 10px rgb(31, 81, 255);;
 }
 
 /* portfolio */
+.portfolioContent.card {
+    width:100%;
+}
 #portfolio p {
     text-align: center;
+}
+.card-img-top {
+    height: 200px;
 }
 
 /* contact */
