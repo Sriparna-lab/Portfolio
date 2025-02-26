@@ -3,21 +3,36 @@
         "image": "724_events.webp",
         "title": "724 Events",
         "text": "Menez une campagne de tests",
-        "link": "https://github.com/Sriparna-lab/724---events.git",
+        "link": "https://github.com/Sriparna-lab/724events.git",
         "alt" : "724events"
+        
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#",
-        "alt" : "image2"
+        "image": "Sophie-Bluel.png",
+        "title": "Sophie Bluel",
+        "text": " Une page web dynamique avec JavaScript",
+        "link": "https://github.com/Sriparna-lab/SBleul.git",
+        "alt" : "SophieBluel"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Une application web de location immobilière avec React",
+        "text": "Application web de location immobilière avec React",
         "link": "https://github.com/Sriparna-lab/Projet-8-Kasa.git",
         "alt" : "Kasa"
+    },
+    {
+        "image": "EcoBlissBath.webp",
+        "title": "Eco Bliss Bath",
+        "text": "Automatisez des tests pour une boutique en ligne",
+        "link": "https://github.com/Sriparna-lab/EcoBlissBath.git",
+        "alt" : "EcoBlissBath"
+    },
+    {
+        "image": "tomsen.webp",
+        "title": "Tomsen",
+        "text": "Concevez une stratégie de test",
+        "link": "https://github.com/Sriparna-lab/Tomsen.git",
+        "alt" : "Tomsen"
     }
 ]

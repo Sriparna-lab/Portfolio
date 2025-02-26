@@ -81,7 +81,9 @@ function createPortfolioFromJSON() {
                      <h3 class="card-title">${item.title}</h3>
                      <p class="card-text">${item.text}</p>
                      <div class="text-center">
-                         <a href="${item.link}" class="btn btn-success">Lien</a>
+                         <a href="${item.link}" class="btn btn-success">Voir le projet</a>
+                        
+
                      </div>
                  </div>
              </div>
@@ -89,8 +91,14 @@ function createPortfolioFromJSON() {
            // Append the card to the current row
                 row.appendChild(card);
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
+               
+
+                // Append row if it has 3 cards or if it's the last row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {
+                    // If the last row has only 2 cards, center them
+                    if (index === data.length - 1 && (index + 1) % 3 !== 0 && row.children.length === 2) {
+                        row.classList.add("justify-content-center");
+                    }
                     container.appendChild(row);
                     row = document.createElement("div");
                     row.classList.add("row");

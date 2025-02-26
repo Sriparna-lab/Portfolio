@@ -23,6 +23,7 @@
     background-color: #5b5b5b;
 }
 
+
 /* hero background image */
 .bgimage {
     height: 100vh;
@@ -82,12 +83,15 @@
 }
 
 .skillsText:hover {
-    box-shadow: 0 0 10px rgb(31, 81, 255);;
+    box-shadow: 0 0 20px rgb(31, 81, 255);
 }
 
 /* portfolio */
 .portfolioContent.card {
     width:100%;
+}
+.portfolioContent.card:hover {
+    box-shadow: 0 0 20px rgb(31, 81, 255); 
 }
 #portfolio p {
     text-align: center;
@@ -95,6 +99,7 @@
 .card-img-top {
     height: 200px;
 }
+
 
 /* contact */
 .contactColumn {
@@ -104,6 +109,12 @@
 }
 .contactColumn i {
     color: #198754;
+}
+.contactText {
+    color: black;
+}
+.contactText:hover {
+    color: black;
 }
 
 
