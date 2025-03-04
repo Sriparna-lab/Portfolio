@@ -9,7 +9,7 @@
       "Mes compétences": "My skills",
       "Mes projets": "My projects",
       "Testeuse Logiciel": "Software Tester",
-      "Je suis d'origine indienne. Enseignant de formation, j'ai enseigné pendant des années dans des écoles en Inde et en France, pendant lesquels j’ai su développer des compétences techniques et relationnelles en gestion de projets, processus d’évaluation, communication, collaboration, rigueur et adaptabilité.": "I am of Indian origin. As a trained teacher I have taught for years in various schools in India and in France, during which I developed technical and interpersonal skills in project management, evaluation of processes, communication, collaboration, rigor, and adaptability.",
+      "Enseignante de formation, j'ai enseigné pendant des années dans des écoles en Inde et en France, pendant lesquels j’ai su développer des compétences techniques et relationnelles en gestion de projets, processus d’évaluation, communication, collaboration, rigueur et adaptabilité.": "As a trained teacher I have taught for years in various schools in India and in France, during which I developed technical and interpersonal skills in project management, evaluation of processes, communication, collaboration, rigor, and adaptability.",
       "Avec enthousiasme pour les tests de logiciels et pour utiliser l'expérience que j'ai acquise, j'ai commencé une formation de testeur de logiciels avec OpenClassrooms, ce qui m'a conduit à une expérience qui a changé ma vie. Autonome et persévérant, j'ai réalisé ce parcours à distance.": "With enthusiasm for software testing and to use the experience that I gained, I started training as a Software Tester with Openclassrooms, which led to a life changing experience. Autonomous and persistent, I completed this journey remotely.",
       "En 2025, j'ai obtenu une certification professionnelle de Testeur de Logiciels, qui m'a permis d'acquérir de solides compétences à travers la réalisation de projets concrets.": "In 2025, I obtained a professional certification as a Software Tester, which allowed me to gain solid skills through the completion of concrete projects.",
       "Curieuse et empathique, minutieuse et déterminée, j'aime m'engager dans les projets qui me sont confiés, en travaillant en équipe avec un objectif commun : identifier et résoudre les problèmes pour améliorer le produit." : "Curious and empathetic, meticulous and determined, I enjoy engaging in the projects entrusted to me, working in teams with a common goal: identifying and solving problems to improve the product.",      
@@ -37,7 +37,7 @@
       "Application web de location immobilière avec React": "Real estate rental web app with React",
       "Automatisez des tests pour une boutique en ligne": "Automate tests for an online store",
       "Concevez une stratégie de test": "Design a testing strategy",
-      "Voir le projet": "View the project",
+      "Code source": "Source code",
       "Téléphone": "Phone",
       "Adresse email": "Email"
      
@@ -52,7 +52,7 @@
       "My skills": "Mes compétences",
       "My projects": "Mes projets",
       "Software Tester": "Testeuse Logiciel",
-      "I am of Indian origin. As a trained teacher I have taught for years in various schools in India and in France, during which I developed technical and interpersonal skills in project management, evaluation of processes, communication, collaboration, rigor, and adaptability.": "Je suis d'origine indienne. Enseignant de formation, j'ai enseigné pendant des années dans des écoles en Inde et en France, pendant lesquels j’ai su développer des compétences techniques et relationnelles en gestion de projets, processus d’évaluation, communication, collaboration, rigueur et adaptabilité.",
+      "As a trained teacher I have taught for years in various schools in India and in France, during which I developed technical and interpersonal skills in project management, evaluation of processes, communication, collaboration, rigor, and adaptability.": "Enseignante de formation, j'ai enseigné pendant des années dans des écoles en Inde et en France, pendant lesquels j’ai su développer des compétences techniques et relationnelles en gestion de projets, processus d’évaluation, communication, collaboration, rigueur et adaptabilité.",
       "With enthusiasm for software testing and to use the experience that I gained, I started training as a Software Tester with Openclassrooms, which led to a life changing experience. Autonomous and persistent, I completed this journey remotely.":"Avec enthousiasme pour les tests de logiciels et pour utiliser l'expérience que j'ai acquise, j'ai commencé une formation de testeur de logiciels avec OpenClassrooms, ce qui m'a conduit à une expérience qui a changé ma vie. Autonome et persévérant, j'ai réalisé ce parcours à distance.",
       "In 2025, I obtained a professional certification as a Software Tester, which allowed me to gain solid skills through the completion of concrete projects.":"En 2025, j'ai obtenu une certification professionnelle de Testeur de Logiciels, qui m'a permis d'acquérir de solides compétences à travers la réalisation de projets concrets.",
       "Curious and empathetic, meticulous and determined, I enjoy engaging in the projects entrusted to me, working in teams with a common goal: identifying and solving problems to improve the product.":"Curieuse et empathique, minutieuse et déterminée, j'aime m'engager dans les projets qui me sont confiés, en travaillant en équipe avec un objectif commun : identifier et résoudre les problèmes pour améliorer le produit.",
@@ -80,7 +80,7 @@
       "Real estate rental web app with React": "Application web de location immobilière avec React",
       "Automate tests for an online store": "Automatisez des tests pour une boutique en ligne",
       "Design a testing strategy": "Concevez une stratégie de test",
-      "View the project": "Voir le projet",
+      "Source code": "Code source",
       "Phone": "Téléphone",
       "Email": "Adresse email"
      

@@ -16,18 +16,16 @@ function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item .nav-link:not(.dropdown-toggle)");
     const dropdownItems = document.querySelectorAll(".dropdown-item");
     const menuToggle = document.getElementById("navbarSupportedContent");
-    // Function to toggle the collapse
-    const toggleCollapse = () => {
-        if (window.getComputedStyle(menuToggle).display !== "none") {
-            new bootstrap.Collapse(menuToggle).toggle();
-        }
-    };
     navLinks.forEach((link) => {
-        link.addEventListener("click", toggleCollapse);
+        link.addEventListener("click", () =>  {
+            new bootstrap.Collapse(menuToggle).toggle();
+        });
     });
     dropdownItems.forEach((item) => {
-        item.addEventListener("click", toggleCollapse);
-    });
+        item.addEventListener("click", () => {
+            new bootstrap.Collapse(menuToggle).toggle();
+        });
+    }); 
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -115,9 +113,7 @@ function createPortfolioFromJSON() {
                     <h3 class="card-title">${item.title}</h3>
                     <p class="card-text">${item.text}</p>
                     <div class="text-center">
-                        <a href="${item.link}" target="_blank" class="btn btn-success">Voir le projet</a>
-                       
-
+                        <a href="${item.link}" target="_blank" class="btn btn-success">Code source</a>
                     </div>
                 </div>
                 </div>
@@ -127,7 +123,7 @@ function createPortfolioFromJSON() {
             // Append row if it has 3 cards or if it's the last row
             if ((index + 1) % 3 === 0 || index === data.length - 1) {
                 // If the last row has only 2 cards, center them
-                if (index === data.length - 1 && (index + 1) % 3 !== 0 && row.children.length === 2) {
+                if (index === data.length - 1 || (index + 1) % 3 !== 0 || row.children.length === 2) {
                     row.classList.add("justify-content-center");
                 }
                 container.appendChild(row);
