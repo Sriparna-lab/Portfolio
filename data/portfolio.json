@@ -2,7 +2,7 @@
     {
         "image": "724_events.webp",
         "title": "724 Events",
-        "text": "Menez une campagne de tests",
+        "text": "Conception d'une campagne de tests pour une agence événementielle, incluant la documentation Jira, les tests exploratoires et le rapport final",
         "link": "https://github.com/Sriparna-lab/724events.git",
         "alt" : "724events"
         
@@ -10,28 +10,29 @@
     {
         "image": "Sophie-Bluel.png",
         "title": "Sophie Bluel",
-        "text": " Une page web dynamique avec JavaScript",
+        "text": "Créé un site web dynamique pour un architecte d'intérieur avec JavaScript et des API. Créé une page de connexion et des modèles de gestion de contenu",
+        
         "link": "https://github.com/Sriparna-lab/SBleul.git",
         "alt" : "SophieBluel"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Application web de location immobilière avec React",
+        "text": "Initialisé une application de location avec Create React App, créé des composants dynamiques avec React et configuré la navigation avec React Router",
         "link": "https://github.com/Sriparna-lab/Projet-8-Kasa.git",
         "alt" : "Kasa"
     },
     {
         "image": "EcoBlissBath.webp",
         "title": "Eco Bliss Bath",
-        "text": "Automatisez des tests pour une boutique en ligne",
+        "text": "Automatisé des tests fonctionnels pour une boutique en ligne en utilisant JavaScript et Cypress. Rédigé un rapport détaillé sur les résultats des tests",
         "link": "https://github.com/Sriparna-lab/EcoBlissBath.git",
         "alt" : "EcoBlissBath"
     },
     {
         "image": "tomsen.webp",
         "title": "Tomsen",
-        "text": "Concevez une stratégie de test",
+        "text": "Créé une stratégie de test pour une application de gestion financière. Analysé les spécifications, planifié les tests selon les sprints, rédigé un plan de test",
         "link": "https://github.com/Sriparna-lab/Tomsen.git",
         "alt" : "Tomsen"
     }
