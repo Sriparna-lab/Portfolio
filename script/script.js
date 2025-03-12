@@ -16,22 +16,22 @@ function handleNavbarCollapse() {
     const navLinks = document.querySelectorAll(".nav-item .nav-link:not(.dropdown-toggle)");
     const dropdownItems = document.querySelectorAll(".dropdown-item");
     const menuToggle = document.getElementById("navbarSupportedContent");
-    // Function to check if the view is mobile
+    //Function to check if the view is mobile
     function isMobileView() {
-        return window.innerWidth< 992;
+       return window.innerWidth< 992;
     }
     navLinks.forEach((link) => {
         link.addEventListener("click", () =>  {
             if (isMobileView()) {
             new bootstrap.Collapse(menuToggle).toggle();
-            }
+          }
         });
     });
     dropdownItems.forEach((item) => {
         item.addEventListener("click", () => {
-            if (isMobileView()) {
-            new bootstrap.Collapse(menuToggle).toggle();
-            }
+           if (isMobileView()) { 
+           new bootstrap.Collapse(menuToggle).toggle();
+          }
         });
     }); 
 }
@@ -122,7 +122,7 @@ function createPortfolioFromJSON() {
                     <p class="card-text">${item.text}</p>
                     <div class="text-center">
                         <a href="${item.link}" target="_blank" class="btn btn-success">
-                        <img src="images/git.png" alt="GitHub" style="height: 20px; width: 20px;">Code source</a>
+                        <img src="images/git.png" alt="GitHub" style="height: 20px; width: 20px;"> Code source</a>
                     </div>
                 </div>
                 </div>
